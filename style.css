@@ -1,0 +1,50 @@
+body{
+  background-image:url("image.jpg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  }
+.header{
+text-align: center; 
+background-color: brown;
+border-radius: 12px;
+padding: 12px;
+}   
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    text-align:center;
+    padding:10px;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+  }
+footer{
+    text-align: center;
+    padding: 2px;
+    background-color:brown;
+    border-radius: 12px;
+}
+table{
+  width: 100%;
+  border:1px solid-black;
+  border-collapse:collapse;
+}
+table,td,tr{
+  border: 2px;
+}
