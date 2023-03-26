@@ -3,6 +3,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100%;
+  opacity: 0.75;
   }
 .header{
 text-align: center; 
@@ -39,12 +40,4 @@ footer{
     padding: 2px;
     background-color:brown;
     border-radius: 12px;
-}
-table{
-  width: 100%;
-  border:1px solid-black;
-  border-collapse:collapse;
-}
-table,td,tr{
-  border: 2px;
 }
