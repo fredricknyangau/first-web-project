@@ -1,5 +1,5 @@
 body{
-  font-family: sans-serif;
+; font-family: Arial, sans-serif;
   font-size: 14px; 
   }
 .header{
@@ -7,8 +7,19 @@ text-align: center;
 background-color: brown;
 border-radius: 12px;
 padding: 12px;
-range:50px 50px;
 } 
+.logo{
+  display: inline;
+  height: 50px;
+  float: left;
+  text-align: center;
+  
+}
+.logo img{
+  height: 100px; 
+  width: 100px;
+  border-radius:50%;
+}
 a:link {
     color: green;
     background-color: transparent;
@@ -35,7 +46,158 @@ a:link {
   }
 footer{
     text-align: center;
-    padding: 2px;
+    padding: 20px;
     background-color:brown;
     border-radius: 12px;
 }
+.social-media{
+display: inline-block;
+padding: 10px; ;
+margin-right:10px ;
+font-size: 18px;
+border-radius:50%;
+}
+.social-media a{
+  margin: 0 10px;
+  color: blue;
+}
+.social-media a:hover{
+  color: bisque;
+}
+  .banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  }
+  
+  .banner h2 {
+  margin: 0;
+  }
+  
+  .banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  }
+  
+  .button {
+  background-color: #fff;
+  border: none;
+  color: #333;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  }
+  
+  .button:hover {
+  background-color: #ddd;
+  }
+  
+  /* Features Styles */
+  .features {
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+  }
+  
+  .features h2 {
+  margin: 0;
+  }
+  
+  .feature {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: left;
+  vertical-align: top;
+  width: 300px;
+  }
+  
+  .feature img {
+  display: block;
+  margin: 0 auto;
+  height: 100px; 
+  width: 100px;
+  }
+  
+  .feature h3 {
+  margin-top: 20px;
+  }
+  
+  .feature p {
+  margin-top: 10px;
+  }
+  
+  /* Courses Styles */
+  .courses {
+  padding: 50px;
+  text-align: center;
+  }
+  
+  .courses h2 {
+  margin: 0;
+  }
+  
+  .course {
+  display: inline-block;
+  margin: 0 20px 40px;
+  text-align: left;
+  vertical-align: top;
+  width: 300px;
+  }
+  
+  .course img {
+  display: block;
+  margin: 0 auto;
+  height: 100px; 
+  width: 100px;
+  }
+  
+  .course h3 {
+  margin-top: 20px;
+  }
+  
+  .course p {
+  margin-top: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  }
+  
+  .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  footer p {
+  margin: 0;
+  }
+  
+  footer nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  footer nav li {
+  margin-left: 20px;
+  }
+  
+  footer nav li a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  footer nav li a:hover {
+  text-decoration: underline;
+  }
+  
