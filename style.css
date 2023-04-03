@@ -28,24 +28,115 @@ a:link {
     text-align:center;
     padding:10px;
   }
-  
   a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
   }
-  
   a:hover {
     color: blue;
     background-color: transparent;
     text-decoration: underline;
   }
-  
   a:active {
-    color: yellow;
+    color: purple;
     background-color: transparent;
   }
-footer{
+  .banner {
+  background-image: url('banner.jpg.jpg');
+  background-size: cover;
+  background-position: center;
+  color:whitesmoke;
+  padding: 50px;
+  border-radius: 12px;
+  text-align: center;
+  }
+  .banner h2 {
+    color:black;
+  margin: 0;
+  }
+  .banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  }
+  .button {
+  background-color:white;
+  border:blanchedalmond;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  }
+  .button:hover {
+  background-color:aliceblue;
+  }
+  .features {
+  background-color:whitesmoke;
+  padding: 50px;
+  border-radius: 12px;
+  text-align: center;
+  }
+  .features h2 {
+  text-align: center;
+  margin: 0;
+  }
+  .feature {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: left;
+  vertical-align: top;
+  width: 300px;
+  border-radius: 12px;
+  }
+  .feature img {
+  display: block;
+  margin: 0 auto;
+  height: 100px; 
+  width: 100px;
+  border-radius:50%;
+  }
+  .feature h3 {
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  .feature p {
+  text-align: center;
+  margin-top: 10px;
+  }
+  .courses {
+  padding: 50px;
+  text-align: center;
+  border-radius: 12px;
+  }
+  .courses h2 {
+    text-align: center; 
+  margin: 0;
+  }
+  .course {
+  display: inline-block;
+  margin: 0 20px 40px;
+  text-align: left;
+  vertical-align: top;
+  width: 300px;
+  }
+  .course img {
+  display: block;
+  margin: 0 auto;
+  height: 100px; 
+  width: 100px;
+  border-radius:50%;
+  }
+  .course h3 {
+  text-align: center;
+  margin-top: 20px;
+  }
+  .course p {
+    text-align: center;
+  margin-top: 10px;
+  }
+  footer{
     text-align: center;
     padding: 20px;
     background-color:brown;
@@ -57,11 +148,9 @@ footer{
   justify-content: space-between;
   align-items: center;
   }
-  
   footer p {
   margin: 0;
   }
-  
   footer nav ul {
   display: flex;
   list-style: none;
@@ -74,14 +163,13 @@ footer{
   }
   
   footer nav li a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   }
   
   footer nav li a:hover {
   text-decoration: underline;
-  }
-  
+  } 
 .social-media{
 display: inline-block;
 padding: 10px; ;
@@ -96,107 +184,23 @@ border-radius:50%;
 .social-media a:hover{
   color: bisque;
 }
-  .banner {
-  background-image: url('banner.jpg.jpg');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  padding: 50px;
-  border-radius: 12px;
-  text-align: center;
-  }
-  
-  .banner h2 {
+/* Add some basic styling to our contacts list */
+.contacts {
+  list-style-type: none;
   margin: 0;
-  }
-  
-  .banner p {
-  font-size: 18px;
-  margin-bottom: 30px;
-  }
-  
-  .button {
-  background-color: #fff;
-  border: none;
-  color: #333;
-  display: inline-block;
-  font-size: 16px;
-  padding: 10px 20px;
-  text-decoration: none;
-  }
-  
-  .button:hover {
-  background-color: #ddd;
-  }
-  
-  /* Features Styles */
-  .features {
-  background-color: #f9f9f9;
-  padding: 50px;
-  text-align: center;
-  }
-  
-  .features h2 {
-  margin: 0;
-  }
-  
-  .feature {
-  display: inline-block;
-  margin: 0 20px;
-  text-align: left;
-  vertical-align: top;
-  width: 300px;
-  border-radius: 12px;
-  }
-  
-  .feature img {
-  display: block;
-  margin: 0 auto;
-  height: 100px; 
-  width: 100px;
-  border-radius:50%;
-  }
-  
-  .feature h3 {
-  margin-top: 20px;
-  }
-  
-  .feature p {
-  margin-top: 10px;
-  }
-  
-  /* Courses Styles */
-  .courses {
-  padding: 50px;
-  text-align: center;
-  border-radius: 12px;
-  }
-  
-  .courses h2 {
-  margin: 0;
-  }
-  
-  .course {
-  display: inline-block;
-  margin: 0 20px 40px;
-  text-align: left;
-  vertical-align: top;
-  width: 300px;
-  }
-  
-  .course img {
-  display: block;
-  margin: 0 auto;
-  height: 100px; 
-  width: 100px;
-  border-radius:50%;
-  }
-  
-  .course h3 {
-  margin-top: 20px;
-  }
-  
-  .course p {
-  margin-top: 10px;
-  }
- 
+  padding: 0;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.contact-name {
+  font-weight: bold;
+}

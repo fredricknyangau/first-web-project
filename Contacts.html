@@ -1,17 +1,68 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>Web Application Programming</title>
+        <title>My Contacts</title>
+        <style>
+          .contacts {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          .contact {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+          }
+          .contact img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+          .contact-name {
+            font-weight: bold;
+          }
+        </style>
     </head>
 <body>
-<header class="header" id="top">
-    <a href="Home.html">Home</a>
-    <a href="About.html">About</a>
-    <a href="Contacts.html">Contacts</a>
-</header>
-<footer>
-    <hr />
-    © 2023
+    <header class="header" id="top"> 
+        <image class="logo" src="Logo.jpg.jpg">
+        <h1>Trade_With_Freddy Forex Academy</h1>
+        <nav>
+        <ul>
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contacts.html">Contacts</a>
+        </ul>
+        </nav>
+        </header>
+        <script>
+const name = prompt("Please enter your name:");
+const email = prompt("Please enter your email:");
+const phone = prompt("Please enter your phone number:");
+alert("Contact information saved successfully!");
+location.href = "Home.html";
+        </script>
+<footer>  
+    <div class="footer-content">
+    <p>Trade_With_Freddy Forex Academy &copy; 2023. All rights reserved.</p>
+    <nav>
+    <ul>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    </ul>
+    </nav>
+    <div class="social-media">
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">youtube</a>
+    </div>
+    </div>
+        <footer>
+          <hr />
+          © 2023
+        </footer>
+      </div>
 </footer>
-    </body>
+</body>
 </html>
