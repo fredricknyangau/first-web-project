@@ -1,7 +1,6 @@
 body{
   background-color: bisque;
-  font-size: 16px; 
-
+  font-size: 16px;
   }
 .header{
 text-align: center; 
@@ -14,7 +13,6 @@ padding: 12px;
   height: 50px;
   float: left;
   text-align: center;
-  
 }
 .logo{
   height: 100px; 
@@ -100,7 +98,6 @@ a:link {
   text-align: center;
   margin-top: 20px;
   }
-  
   .feature p {
   text-align: center;
   margin-top: 10px;
@@ -187,7 +184,6 @@ font-size: 18px;
   body {
     font-size: 18px;
   }
-
   nav li {
     margin: 0 20px;
   }
