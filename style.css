@@ -1,7 +1,8 @@
 body{
   background-color: bisque;
   font-family: Arial, sans-serif;
-  font-size: 14px; 
+  font-size: 16px; 
+
   }
 .header{
 text-align: center; 
@@ -183,4 +184,22 @@ border-radius:50%;
 }
 .social-media a:hover{
   color: bisque;
+}
+/* Media queries */
+@media (min-width: 768px) {
+  /* Styles for tablet and desktop */
+  body {
+    font-size: 18px;
+  }
+
+  nav li {
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for desktop */
+  body {
+    font-size: 20px;
+  }
 }
