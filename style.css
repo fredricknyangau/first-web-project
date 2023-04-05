@@ -173,6 +173,10 @@ padding: 10px; ;
 margin-right:10px ;
 font-size: 18px;
 }
+.social-buttons a i {
+  font-size: 24px;
+}
+
 .social-media a{
   margin: 0 10px;
   color: blue;
